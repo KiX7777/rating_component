@@ -14,9 +14,8 @@ circle.forEach((krug) => {
   krug.addEventListener('click', changeActive);
 });
 
-const activeBtn = document.querySelector('.activeBtn');
-
 const submit = function () {
+  const activeBtn = document.querySelector('.activeBtn');
   document.body.innerHTML = `
   <div class="container flex ty">
     <span class="image"
