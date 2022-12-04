@@ -8,11 +8,140 @@
 html {
   font-family: 'Overpass', sans-serif;
   font-size: 62.5%;
+  transition: 0.3s all;
 }
 .container {
   font-size: 11px;
+  margin: 10rem auto;
+  max-width: 35rem;
+  text-align: center;
+  background-color: #1e252f;
+  color: hsl(217, 12%, 63%);
+  padding: 3rem;
+  height: 32rem;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 2rem;
+  transition: 0.3s all;
+}
+.container p {
+  text-align: left;
+  /* font-weight: 700; */
+  line-height: 1.4;
+  padding-right: 2.4rem;
+}
+
+.text {
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+}
+
+h3 {
+  color: white;
+  font-size: 2.2rem;
+  letter-spacing: 0.1rem;
+  text-align: left;
+}
+
+button.circle {
+  background-color: #242f3d;
+  color: hwb(216 49% 40%);
+  width: 4.2rem;
+  height: 4.2rem;
+  border: none;
+  border-radius: 50%;
+  font-weight: 700;
+  transition: 0.3s all;
+}
+
+button.circle:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.buttons {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.star {
+  background-color: #242f3d;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  cursor: pointer;
+}
+.submit {
+  width: 100%;
+  padding: 1rem;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  transition: 0.3s all;
+  border-radius: 2rem;
+  color: white;
+}
+.submit:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+button.activeBtn {
+  background-color: #7a8696;
+  color: white;
+}
+
+.tylogo {
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.tylogo img {
+  /* width: 5rem; */
+  width: min-content;
+  transition: 0.3s all;
+}
+.image {
+  flex-basis: 2rem;
+}
+
+.ty {
+  align-items: center;
+  text-align: center;
+  flex: 1;
+  /* padding: 2rem; */
+  /* flex: 1; */
+}
+.ty p {
   text-align: center;
 }
-.container a {
-  color: hsl(228, 45%, 44%);
+.container .ty {
+  padding: 3rem;
+  /* gap: 2rem; */
+}
+
+.selection {
+  background-color: #272e38;
+  padding: 1rem 2.4rem;
+  border-radius: 2rem;
+  color: hsl(25, 97%, 53%);
+  margin-top: 2rem;
+}
+
+.text.ty {
+  /* flex: 2; */
+  padding: 2rem;
+  padding-bottom: 0;
+}
+
+p.description.ty {
+  padding: 0 1rem;
 }
